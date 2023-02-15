@@ -1,0 +1,262 @@
+@media (max-width: 1000px) {
+  .hero {
+    height: 100%;
+    clip-path: none;
+    overflow-x: hidden;
+  }
+  nav {
+    display: block;
+    position: relative;
+    line-height: 50px;
+  }
+  .top_section {
+    transform: translateY(50px);
+    clip-path: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .main_hero_sec {
+    clip-path: none;
+    height: 100%;
+  }
+  .overlay_content {
+    position: relative;
+  }
+  .content_box {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .menu {
+    width: 100%;
+    height: 100vh;
+    background-color: #ff0057;
+    display: block;
+    text-align: center;
+    transition: all 1s;
+    visibility: hidden;
+    /* opacity: 0; */
+    clip-path: circle(5% at bottom);
+    z-index: 1;
+    margin-top: 18px;
+  }
+  .menu.active {
+    visibility: visible;
+    /* opacity: 1; */
+    clip-path: circle(170% at bottom);
+  }
+  .menu ul {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .menu ul li {
+    display: block;
+    margin: 0;
+    line-height: 60px;
+    margin-left: -25px;
+  }
+  .menu ul li a {
+    /* color: #fff; */
+    font-weight: 600;
+  }
+  .menu ul li .contact_box {
+    margin-left: 0px;
+  }
+  header.sticky .menu ul li a {
+    color: #fff;
+    font-weight: 600;
+  }
+  header.sticky .menu ul li .contact_box a {
+    background-color: #fff;
+    color: #ff0057;
+  }
+  .contact_box button {
+    /* background-color: #fff; */
+    color: #111;
+  }
+  .logo_box {
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+  }
+  .logo img {
+    width: 80%;
+    height: 80%;
+  }
+  .container-lg {
+    margin: 0;
+    padding: 0;
+  }
+  .menu_btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 30px;
+    height: 28px;
+    background-image: url("../images/menu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(1);
+  }
+  .menu_btn.active {
+    background-image: url("../images/close.png");
+    filter: invert(1);
+  }
+  .menu ul li a.active::after {
+    background-color: #fff;
+    /* background-color: #fff;
+    color: #222; */
+  }
+  .menu_btn img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .content {
+    margin-top: 100px;
+    padding: 0px 20px;
+  }
+  .image_box {
+    text-align: center;
+  }
+  .image_box img {
+    width: 80%;
+  }
+  .about_me {
+    overflow: hidden;
+  }
+  .about_me::after {
+    width: 100%;
+    height: 100%;
+  }
+  .about_ul {
+    position: relative;
+  }
+  .about_me ul li {
+    display: inline-block;
+  }
+  .about_me ul li a {
+    margin: 25px 10px;
+    width: 35px;
+    height: 35px;
+  }
+  .services {
+    overflow-x: hidden;
+  }
+  .service_section {
+    width: 100%;
+    height: 100%;
+  }
+  .hire {
+    width: 100%;
+    height: 100%;
+  }
+  .hire::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+  }
+  .hire_img {
+    width: 100%;
+  }
+  .hire_content {
+    text-align: center;
+  }
+  .portfolio {
+    height: 100%;
+    padding: 20px 0px;
+  }
+  .port-list ul {
+    display: block;
+  }
+  .port-list ul li {
+    display: block;
+    text-align: center;
+  }
+  .img-row {
+    padding: 0;
+  }
+  .team_box {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .team_box2 {
+    margin-top: 100px;
+  }
+  .team_box3 {
+    margin-top: 120px;
+  }
+  .our_team {
+    clip-path: none;
+  }
+  .review_title {
+    padding: 0px 20px;
+  }
+  .blog_content {
+    margin-bottom: 70px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .contact {
+    clip-path: none;
+    padding: 0px 10px;
+  }
+  .contact::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    clip-path: none;
+  }
+  .contact_title {
+    width: 100%;
+  }
+  .bottom_logo {
+    display: none;
+  }
+  .form_box {
+    padding: 0px 20px;
+  }
+  .footer_content img {
+    width: 200px;
+  }
+  .bottom_footer p {
+    font-size: 14px;
+  }
+  .footer {
+    overflow-x: hidden;
+  }
+  .contact {
+    overflow-x: hidden;
+  }
+  .our_blog {
+    overflow-x: hidden;
+    padding-bottom: 0;
+  }
+  .our_team {
+    overflow-x: hidden;
+  }
+  .portfolio {
+    overflow-x: hidden;
+  }
+  .review {
+    overflow-x: hidden;
+  }
+  .hire {
+    overflow-x: hidden;
+  }
+  .about_me {
+    overflow-x: hidden;
+  }
+  .quick_link {
+    margin-top: 50px;
+  }
+}
